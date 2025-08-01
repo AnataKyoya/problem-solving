@@ -58,10 +58,110 @@
     button:hover {
       background-color: #0056b3;
     }
-    .output {
+    .output, .example {
       margin-top: 1rem;
       background-color: #fff3cd;
       padding: 1rem;
+      border-left: 5px solid #ffc107;
+    }
+    .note {
+      background-color: #d1ecf1;
+      padding: 1rem;
+      border-left: 5px solid #17a2b8;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Studi Kasus: Revitalisasi Kawasan Kumuh Pinggir Sungai</h1>
+
+  <p><strong>Latar Belakang:</strong></p>
+  <ul>
+    <li>1.200 KK penduduk miskin (40% pekerja serabutan)</li>
+    <li>Pabrik tekstil tua berpolusi akan tutup</li>
+    <li>Sungai tercemar berat (TSS: 450 mg/L)</li>
+    <li>Ancaman banjir tahunan</li>
+    <li>Lahan eks pabrik 3,5 ha disengketakan</li>
+  </ul>
+
+  <h2>7 Elemen Permasalahan</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Elemen</th>
+        <th>Permasalahan Spesifik</th>
+        <th>Data Pendukung</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>1. Lingkungan</td><td>Banjir rob 2x/thn merendam 60% permukiman</td><td>Kedalaman: 0.7–1.2m</td></tr>
+      <tr><td>2. Ekonomi</td><td>Pengangguran usia produktif 32%</td><td>Hanya 28% warga punya rekening bank</td></tr>
+      <tr><td>3. Sosial</td><td>Konflik lahan eks pabrik</td><td>65% warga klaim turun-temurun</td></tr>
+      <tr><td>4. Infrastruktur</td><td>Drainase tersumbat sampah plastik</td><td>70% rumah tanpa septic tank</td></tr>
+      <tr><td>5. Regulasi</td><td>Perda larang renovasi permanen</td><td>Zona merah risiko banjir</td></tr>
+      <tr><td>6. Budaya</td><td>Tradisi "Nyadran Sungai" terancam</td><td>500+ warga terlibat tahunan</td></tr>
+      <tr><td>7. Teknologi</td><td>Literasi digital rendah</td><td>11% warga bisa akses e-gov</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Tantangan Utama</h2>
+  <p><em>Rancang revitalisasi berkelanjutan yang:</em></p>
+  <ul>
+    <li>Mencegah pemindahan paksa warga</li>
+    <li>Menciptakan ekonomi sirkular</li>
+    <li>Memulihkan ekosistem sungai</li>
+    <li><strong>Anggaran maksimal: Rp 18 Miliar</strong></li>
+  </ul>
+
+  <details>
+    <summary>Petunjuk Pemecahan Masalah</summary>
+    <ol>
+      <li><strong>Mapping Keterkaitan:</strong> Hubungkan elemen-elemen yang saling mempengaruhi</li>
+      <li><strong>Identifikasi Leverage Point:</strong> Elemen mana berdampak sistemik terbesar?</li>
+      <li><strong>Solusi Simbiosis:</strong> Cari solusi untuk ≥2 masalah sekaligus</li>
+      <li><strong>Mitigasi Trade-off:</strong> Risiko jika satu elemen diabaikan</li>
+      <li><strong>Skala Prioritas:</strong> Mana intervensi jangka pendek & panjang?</li>
+    </ol>
+  </details>
+
+  <div class="note">
+    <strong>Tips Menjawab:</strong>
+    <ul>
+      <li>Gunakan poin-poin pendek, bukan paragraf panjang</li>
+      <li>Jelaskan hubungan antar elemen</li>
+      <li>Berikan solusi realistis dan berbiaya terukur</li>
+    </ul>
+    <button onclick="tampilkanContoh()">Lihat Contoh Jawaban</button>
+  </div>
+
+  <div class="example" id="contohBox" style="display:none;">
+    <h3>Contoh Jawaban Simulasi:</h3>
+    <p><strong>Intervensi utama:</strong> Ubah sampah plastik jadi <em>bata ecobrick</em> (solusi A).</p>
+    <ul>
+      <li>Selesaikan masalah limbah (4) & pengangguran (2)</li>
+      <li>Ecobrick digunakan untuk bangun tanggul semi-permanen (atasi banjir & sesuai regulasi zona merah – elemen 1 & 5)</li>
+      <li>Bangun pusat pelatihan di lahan eks pabrik (kurangi konflik sosial – elemen 3)</li>
+    </ul>
+    <p><strong>Alokasi Dana:</strong></p>
+    <ul>
+      <li>Pelatihan pengolahan sampah & penguatan literasi teknologi (elemen 7)</li>
+      <li>Insentif warga kumpulkan plastik (partisipasi ekonomi sirkular)</li>
+    </ul>
+    <p><strong>Risiko:</strong> Proyek percontohan dulu di area kecil untuk uji efektivitas</p>
+  </div>
+
+  <h2>Catat Strategimu di Buku Catatan Kecil Pramuka YAAA ;)</h2>
+
+  <script>
+    function tampilkanContoh() {
+      const contoh = document.getElementById("contohBox");
+      contoh.style.display = "block";
+    }
+  </script>
+
+</body>
+</html>      padding: 1rem;
       border-left: 5px solid #ffc107;
     }
   </style>
